@@ -16,10 +16,15 @@ set backspace=indent,eol,start
 noremap Y y$
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 "autoremove trailing whitespace
-autocmd BufWritePre * %s/\s+$//e
+autocmd BufWritePre * call SetSpaces()
 
 " Searching
 set ignorecase
 set smartcase
 set hlsearch
 set incsearch
+
+fun SetSpaces()
+    retab
+    %s/\s\+$//e
+endfun
