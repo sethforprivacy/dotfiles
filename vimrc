@@ -6,10 +6,20 @@ filetype off
 
 "Plugin 'VundleVim/Vundle.vim'
 
-filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+syntax on
+set tabstop=4 shiftwidth=4
 set expandtab
+set autoindent
+set smartindent
+set backspace=indent,eol,start
 
+noremap Y y$
+set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 "autoremove trailing whitespace
 autocmd BufWritePre * %s/\s+$//e
+
+" Searching
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
