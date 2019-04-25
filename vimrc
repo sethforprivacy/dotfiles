@@ -22,9 +22,6 @@ set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 au BufWritePre *.c,*.cpp,*.h,*.py,*.rb,*.go,*.sh,*.txt retab
 au BufWritePre * call SetSpaces()
-au BufNewFile,BufRead *.py
-    \ set textwidth=79 |
-    \ set fileformat=unix
 
 " Searching
 set ignorecase
