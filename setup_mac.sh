@@ -38,3 +38,6 @@ echo "alias gco='git checkout '" >> ~/.bash_profile
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/undo
 cp vimrc ~/.vimrc
+
+# """ setup git
+cp gitconfig ~/.gitconfig
