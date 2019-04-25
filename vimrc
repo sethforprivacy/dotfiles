@@ -23,8 +23,8 @@ set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 au BufWritePre *.c,*.cpp,*.h,*.py,*.rb,*.go,*.sh,*.txt retab
 au BufWritePre * call SetSpaces()
 au BufNewFile,BufRead *.py
-    \ set textwidth=79
-    \ set fileformat=linux
+    \ set textwidth=79 |
+    \ set fileformat=unix
 
 " Searching
 set ignorecase
@@ -36,7 +36,6 @@ set incsearch
 set noswapfile
 set nobackup
 set nowritebackup
-set cursorline
 
 " Allow for undoing changes after exit and reopen
 set undofile
