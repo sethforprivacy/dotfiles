@@ -20,7 +20,7 @@ set encoding=utf-8
 noremap Y y$
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
-au BufWritePre *.py,*.rb,*.go,*.sh,*.txt retab
+au BufWritePre *.c,*.cpp,*.h,*.py,*.rb,*.go,*.sh,*.txt retab
 au BufWritePre * call SetSpaces()
 au BufNewFile,BufRead *.py
     \ set textwidth=79
