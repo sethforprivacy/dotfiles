@@ -1,5 +1,6 @@
 #!/bin/bash
 # TODO add --personal flag to include additional packages
+# NOTE future cask ideas: airpass nightowl there
 
 # """ setup homebrew """
 # install homebrew
@@ -10,7 +11,7 @@ brew doctor
 # install packages from homebrew
 brew install cloc curl git go grep htop iproute2mac irssi jq md5sha1sum nmap \
              openssh openssl python python@2 python3 rsync screen sshrc \
-             sqlite telnet visidata watch wget wireguard-tools xz
+             sqlite telnet watch wget wireguard-tools xz
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
@@ -20,8 +21,8 @@ brew cask install atom docker dropbox flux firefox google-chrome keepingyouawake
 # cleanup
 brew cleanup
 
-# future cask ideas
-# brew cask install airpass nightowl there
+# """ install visidata """
+pip3 install visidata dpkt lxml
 
 # """ setup bash """
 echo "alias ll='ls -la'" >> ~/.bash_profile
@@ -39,5 +40,5 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 mkdir -p ~/.vim/undo
 cp vimrc ~/.vimrc
 
-# """ setup git
+# """ setup git """
 cp gitconfig ~/.gitconfig
