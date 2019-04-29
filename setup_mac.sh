@@ -11,11 +11,11 @@ brew doctor
 # install packages from homebrew
 brew install cloc curl git go grep htop iproute2mac irssi jq md5sha1sum nmap \
              openssh openssl python python@2 python3 rsync screen sshrc \
-             sqlite telnet watch wget wireguard-tools xz
+             sqlite telnet watch wget xz
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
-brew cask install atom docker dropbox flux firefox google-chrome keepingyouawake \
+brew cask install atom docker dropbox flux firefox google-chrome gpg-suite keepingyouawake \
                   iterm2 postman the-unarchiver virtualbox vlc wireshark --force
 
 # cleanup
