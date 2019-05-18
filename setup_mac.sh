@@ -32,7 +32,4 @@ cp gitconfig ~/.gitconfig
 pip3 install visidata dpkt lxml
 
 # """ setup vim """
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-mkdir -p ~/.vim/undo
-cp vimrc ~/.vimrc
-
+./setup_vim.sh
