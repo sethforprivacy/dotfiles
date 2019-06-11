@@ -25,11 +25,14 @@ brew cask install atom docker dropbox flux firefox google-chrome gpg-suite keepi
 # cleanup
 brew cleanup
 
+# install xcode-select
+xcode-select --install
+
 # """ setup git """
 cp gitconfig ~/.gitconfig
 
 # """ install visidata """
-pip3 install visidata dpkt lxml
+pip3 install visidata dpkt lxml virtualenv
 
 # """ setup vim """
 ./setup_vim.sh
