@@ -15,7 +15,7 @@ brew doctor
 # install packages from homebrew
 brew install cloc curl git go grep htop iproute2mac irssi jq md5sha1sum nmap \
              openssh openssl python python@2 python3 rsync screen sshrc \
-             sqlite telnet tmux vim watch wget xz
+             sqlite inetutils tmux vim watch wget xz
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
