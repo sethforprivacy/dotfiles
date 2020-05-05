@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype plugin on
 set number
 
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -8,6 +8,9 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 syntax on
+set ruler
+set modeline
+set history=100
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
