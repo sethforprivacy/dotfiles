@@ -14,7 +14,7 @@ brew install ansible ansible-lint autojump curl git go grep htop iftop \
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
 brew cask install brave-browser bitwarden docker element gpg-suite keepingyouawake \
-                  iterm2 signal spotify virtualbox visual-studio-code vlc wireshark --force
+                  iterm2 signal spotify standard-notes  virtualbox visual-studio-code vlc wireshark --force
 
 # cleanup
 brew cleanup
