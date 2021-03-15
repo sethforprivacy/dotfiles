@@ -39,3 +39,6 @@ pip3 install visidata dpkt lxml virtualenv
 
 # Setup iftoprc
 cp .iftoprc ~/.iftoprc
+
+# """ setup git """
+cp gitconfig ~/.gitconfig
