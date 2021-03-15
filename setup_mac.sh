@@ -19,7 +19,7 @@ brew install ansible ansible-lint cloc curl git go grep htop iproute2mac \
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
-brew cask install atom docker dropbox flux firefox gpg-suite keepassxc keepingyouawake \
+brew cask install visual-studio-code docker flux firefox gpg-suite keepassxc keepingyouawake \
                   iterm2 postman the-unarchiver tresorit virtualbox vlc wireshark signal --force
 
 # cleanup
