@@ -7,9 +7,9 @@ xcode-select --install
 brew doctor
 
 # install packages from homebrew
-brew install ansible ansible-lint autojump curl git go grep htop iftop \
-             jq md5sha1sum nmap openssh openssl python3 sshrc \
-             inetutils starship vim watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
+brew install ansible ansible-lint autojump curl git go grep htop hugo iftop \
+             jq md5sha1sum molecule nmap openssh openssl python3 sshrc \
+             inetutils starship vagrant vim visidata watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
