@@ -7,6 +7,7 @@ xcode-select --install
 brew doctor
 
 # install packages from homebrew
+brew tap saulpw/vd
 brew install ansible ansible-lint autojump curl git go grep htop hugo iftop \
              jq md5sha1sum molecule nmap openssh openssl python3 sshrc \
              inetutils starship vagrant vim visidata watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -14,7 +15,7 @@ brew install ansible ansible-lint autojump curl git go grep htop hugo iftop \
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
 brew cask install brave-browser bitwarden docker element gpg-suite keepingyouawake \
-                  iterm2 signal spotify standard-notes  virtualbox visual-studio-code vlc wireshark --force
+                  iterm2 signal spotify standard-notes virtualbox visual-studio-code vlc wireshark --force
 
 # cleanup
 brew cleanup
