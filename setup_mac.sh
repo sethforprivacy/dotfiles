@@ -36,7 +36,7 @@ source ~/.zshrc
 xcode-select --install
 
 # """ install visidata """
-pip3 install visidata dpkt lxml virtualenv
+pip3 install dpkt lxml virtualenv
 
 # Setup iftoprc
 cp .iftoprc ~/.iftoprc
