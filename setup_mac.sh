@@ -8,9 +8,11 @@ brew doctor
 
 # install packages from homebrew
 brew tap saulpw/vd
-brew install ansible ansible-lint autojump curl git go grep htop hugo iftop \
-             jq md5sha1sum molecule nmap openssh openssl python3 sshrc \
-             inetutils starship vagrant vim visidata watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
+brew tap goodwithtech/r
+brew tap aquasecurity/trivy
+brew install ansible ansible-lint autojump curl dockle git go grep hadolint htop hugo iftop \
+             jq lazydocker md5sha1sum molecule nmap openssh openssl python3 sshrc \
+             inetutils starship trivy vagrant vim visidata watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
