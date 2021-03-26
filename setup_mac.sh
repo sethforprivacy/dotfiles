@@ -10,7 +10,7 @@ brew doctor
 brew tap saulpw/vd
 brew tap goodwithtech/r
 brew tap aquasecurity/trivy
-brew install ansible ansible-lint autojump curl dockle git go grep hadolint htop hugo iftop \
+brew install act ansible ansible-lint autojump curl dockle git go grep hadolint htop hugo iftop \
              jq lazydocker md5sha1sum molecule nmap openssh openssl python3 sshrc \
              inetutils starship trivy vagrant vim visidata watch wget xz zstd zsh zsh-autosuggestions zsh-syntax-highlighting
 
