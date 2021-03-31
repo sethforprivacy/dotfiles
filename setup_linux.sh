@@ -14,9 +14,10 @@ brew install act ansible ansible-lint autojump curl dockle git go grep hadolint 
              zsh-autosuggestions zsh-syntax-highlighting
 
 # install packages from homebrew cask
-brew install caskroom/cask/brew-cask
-brew cask install brave-browser bitwarden docker element signal spotify  \
-                 standard-notes virtualbox visual-studio-code vlc wireshark --force
+# Disabled for Linux as Casks are not currently supported
+# brew install caskroom/cask/brew-cask
+# brew cask install brave-browser bitwarden docker element signal spotify  \
+#                  standard-notes virtualbox visual-studio-code vlc wireshark --force
 
 # cleanup
 brew cleanup
