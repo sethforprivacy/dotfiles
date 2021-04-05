@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install packages
-sudo apt install ansible ansible-lint autojump curl git grep hadolint htop hugo iftop \
-             jq nmap python3 inetutils vagrant vim watch wget zsh
+sudo apt install ansible ansible-lint autojump curl git grep htop hugo \
+             jq nmap python3 python3-pip tor vagrant vim watch wget zsh
 
 # Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -16,7 +16,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 echo 'eval "$(starship init zsh)"' >> ~/.zshrc
 
 # Enable zsh plugins
-sed 's/\(^plugins=([^)]*\)/\1 autojump zsh-autosuggestions zsh-syntax-highlighting/' .zshrc
+sed 's/\(^plugins=([^)]*\)/\1 autojump zsh-autosuggestions zsh-syntax-highlighting/' ~/.zshrc
 
 # Install Pip packages
 pip3 install dpkt lxml virtualenv

@@ -3,7 +3,7 @@
 # """ setup homebrew """
 # install homebrew
 xcode-select --install
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+rusr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 
 # install packages from homebrew
@@ -16,7 +16,7 @@ brew install act ansible ansible-lint autojump curl dockle git go grep hadolint 
 
 # install packages from homebrew cask
 brew install caskroom/cask/brew-cask
-brew cask install brave-browser bitwarden docker element keepingyouawake \
+brew cask install bitwarden docker element firefox keepingyouawake \
                   iterm2 signal spotify standard-notes virtualbox visual-studio-code vlc wireshark --force
 
 # cleanup
