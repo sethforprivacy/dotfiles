@@ -1,8 +1,0 @@
-interface: en0 # The interface to monitor
-log-scale: yes # Use a logarithmic scale for bar graphs.
-dns-resolution: yes # Controls reverse lookup of IP addresses.
-port-display: on # Controls display of port numbers.
-port-resolution: no # Controls conversion of port numbers to service names.
-line-display: one-line-both # Controls the appearance of each item in the display.
-sort: 10s # Sets which column is used to sort the display.
-show-totals: yes # Shows cumulative total for each item.
