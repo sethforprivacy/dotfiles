@@ -24,4 +24,8 @@ pip3 install dpkt lxml virtualenv
 # Setup git
 cp gitconfig ~/.gitconfig
 
+# Setup Starship
+mkdir -p ~/.config
+cp starship.toml ~/.config/starship.toml
+
 source ~/.zshrc
