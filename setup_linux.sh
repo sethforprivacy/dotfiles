@@ -24,6 +24,12 @@ pip3 install dpkt lxml virtualenv
 # Setup git
 cp gitconfig ~/.gitconfig
 
+# Setup Nerd Font
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+mkdir ~/.local/share/fonts/
+unzip FiraCode.zip -d ~/.local/share/fonts/
+fc-cache -fv
+
 # Setup Starship
 mkdir -p ~/.config
 cp starship.toml ~/.config/starship.toml
