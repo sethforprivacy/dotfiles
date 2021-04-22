@@ -26,12 +26,12 @@ cp gitconfig ~/.gitconfig
 
 # Setup Nerd Font
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
-mkdir ~/.local/share/fonts/
+mkdir -p ~/.local/share/fonts/
 unzip FiraCode.zip -d ~/.local/share/fonts/
 fc-cache -fv
 
 # Setup Starship
-mkdir -p ~/.config
+mkdir ~/.config
 cp starship.toml ~/.config/starship.toml
 
 source ~/.zshrc
