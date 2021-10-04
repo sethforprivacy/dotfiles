@@ -6,6 +6,7 @@ sudo apt install ansible ansible-lint autojump curl git grep htop hugo \
 
 # Install OhMyZsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+exit
 
 # Install OhMyZSH plugins
 curl -fsSL https://starship.rs/install.sh | bash
