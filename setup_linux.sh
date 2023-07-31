@@ -25,7 +25,7 @@ pip3 install dpkt lxml virtualenv
 cp gitconfig ~/.gitconfig
 
 # Setup Nerd Font
-wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraCode.zip
 mkdir -p ~/.local/share/fonts/
 unzip FiraCode.zip -d ~/.local/share/fonts/
 fc-cache -fv
